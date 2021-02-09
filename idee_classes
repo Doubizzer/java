@@ -1,0 +1,53 @@
+Classes :
+	EqReseaux
+		nom
+		type
+		CONSTRUCTEURS :
+		EqReseaux ()
+		EqReseaux (nom, type)
+
+		EqClient extends EqReseaux
+			aIP
+			aMAC
+			aGate
+
+			CONSTRUCTEURS :
+			super EqClient ()
+			super EqClient(nom, type)
+			METHODES :
+			confClient (aIP, aMAC, aGate)
+
+			Cfixe extends EqClient
+				cam bool
+			Cportable extends EqClient
+				cam bool
+			Ctablette extends EqClient
+				cam bool
+
+
+
+
+
+
+		EqRouter extends EqReseaux
+
+			Ifa0 extends EqRouter
+				aIP
+				aMask
+			Ifa1 extends EqRouter
+				aIP
+				aMask
+			Route extends EqRouter
+				route
+		[[  EqSwitch extends EqReseaux  ]]
+				
+
+
+
+
+
+
+
+
+
+INTERFACE GRAPHIQUE ///
