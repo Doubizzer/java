@@ -24,8 +24,18 @@ Classes :
 			Ctablette extends EqClient
 				cam bool
 
+		EqCable extends EqReseaux
+			Input
+			Output
 
 
+		EqSwitch extends EqReseaux
+			intA
+			intB
+			intC
+			intD
+			intE
+			intF
 
 
 
@@ -39,7 +49,6 @@ Classes :
 				aMask
 			Route extends EqRouter
 				route
-		[[  EqSwitch extends EqReseaux  ]]
 				
 
 
