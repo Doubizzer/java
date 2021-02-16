@@ -5,6 +5,7 @@ public class EqSwitch extends EqReseau {
 		this.array[] = null;
 	}
 
-	public EqSwitch() {
-		array
+	public EqSwitch(String input,String output) {
+		input = this.array[]
+		output = this.array[]
           }
