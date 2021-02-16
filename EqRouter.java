@@ -9,5 +9,5 @@ public class EqRouter extends EqReseau {
 		super(p1, p2);
 	}
 	public String toString() {
-   		return "Nom de la machine : " + this.nom + " Type de la machine : " + this.type;
+   		return super.toString();
 }
