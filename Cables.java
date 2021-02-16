@@ -1,4 +1,4 @@
-public class Cables extends EqReseaux{
+public class Cables extends EqReseau{
 	String input;
 	String output;
 	
@@ -6,9 +6,4 @@ public class Cables extends EqReseaux{
 		super();
 	}
 		
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
