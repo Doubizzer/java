@@ -10,4 +10,5 @@ public class EqRouter extends EqReseau {
 	}
 	public String toString() {
    		return super.toString();
+	}
 }
