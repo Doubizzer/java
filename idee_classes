@@ -6,7 +6,7 @@ Classes :
 		EqReseaux ()
 		EqReseaux (nom, type)
 		Client1 = EqClient()
-		//Créer un array pour la méthode et recenser les câbles 
+		String tab[]	//Créer un array pour la méthode et recenser les câbles 
 		
 	EqClient extends EqReseaux
 		aIP
@@ -14,8 +14,6 @@ Classes :
 		aGate
 
 		CONSTRUCTEURS :
-		//super EqClient ()
-		//super EqClient(nom, type) les variables super ne sont pas nécessaires on les a donc changés
 		 EqClient ()
 		 EqClient(aIP,aMAC,aGate)
 		
@@ -35,7 +33,7 @@ Classes :
 			Input
 			Output
 		
-		public CreerTableRoutage (// faire un pathfinder)
+		// public CreerTableRoutage (faire un pathfinder)
 		
 
 
