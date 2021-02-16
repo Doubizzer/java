@@ -16,5 +16,5 @@ public class EqClient extends EqReseau{
 		this.nom = pNom;
 	}
 	public String toString() {
-   		return "Nom de la machine : " + this.nom + " Type de la machine : " + this.type + "IP de la machine :" + this.aIP + "MAC de la machine" + this.aMAC + "Gateway :" + this.aGate;
-}
+   		return super.toString() + "IP de la machine :" + this.aIP + "MAC de la machine" + this.aMAC + "Gateway :" + this.aGate;
+	}
