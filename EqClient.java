@@ -18,3 +18,4 @@ public class EqClient extends EqReseau{
 	public String toString() {
    		return super.toString() + "IP de la machine :" + this.aIP + "MAC de la machine" + this.aMAC + "Gateway :" + this.aGate;
 	}
+}
