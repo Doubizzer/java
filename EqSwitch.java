@@ -1,5 +1,5 @@
 public class EqSwitch extends EqReseau {
-	        array[];
+	       int array[];
 	
 	public EqSwitch() {
 		this.array[] = null;
