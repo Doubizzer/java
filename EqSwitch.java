@@ -9,7 +9,7 @@ public class EqSwitch extends EqReseau {
 		input = this.array[]
 		output = this.array[]
           }
-	public Affiche(){
-		return "Interfaces du Switch :" + this.array[];
+	public void Affiche(){
+		System.out.println ("Interfaces du Switch :" + this.input);
 	}
 }
