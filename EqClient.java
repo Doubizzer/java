@@ -6,6 +6,7 @@ public class EqClient extends EqReseau{
 	
 	public EqClient() {
 		super ();
+
 	}
 	
 	public EqClient(String pIP, String pMAC, String pGate, String pNom) {
