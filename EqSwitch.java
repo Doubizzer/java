@@ -8,8 +8,7 @@ public class EqSwitch extends EqReseau {
 	public EqSwitch(String input,String output) {
 		input = this.array[]
 		output = this.array[]
-          }
-	public void Affiche(){
-		System.out.println ("Interfaces du Switch :" + this.input);
 	}
+	
+	
 }
